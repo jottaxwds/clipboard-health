@@ -24,7 +24,7 @@ function getPartitionKeyFromEvent (event) {
 exports.deterministicPartitionKey = (event) => {
   const TRIVIAL_PARTITION_KEY = "0";
   const MAX_PARTITION_KEY_LENGTH = 256;
-  let candidate = getPartitionKeyFromEvent(event);
+  const candidate = getPartitionKeyFromEvent(event);
 
   if (!candidate) {
     return TRIVIAL_PARTITION_KEY;
