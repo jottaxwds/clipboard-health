@@ -1,0 +1,25 @@
+{
+  "name": "clipboard-health",
+  "version": "1.0.0",
+  "description": "clipboard health frontend assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jottaxwds/clipboard-health.git"
+  },
+  "author": "jottaxwds",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jottaxwds/clipboard-health/issues"
+  },
+  "homepage": "https://github.com/jottaxwds/clipboard-health#readme",
+  "dependencies": {
+    "crypto": "^1.0.1"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
